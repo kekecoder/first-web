@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+}
+
+#super_body{
+    background: #e2c7f7; /* Old browsers */
+    border: 5px double yellow;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f85eff;
+    font-family: 'Anton', cursive, sans-serif, serif;
+    font-size: 34pt;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    border-bottom: dashed green 3px;
+    word-spacing: .3em;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #ef155e;
+    text-transform: uppercase;
+    font-family: cursive, monospace;
+    margin-top: 12px;
+}
+
+.career h2{
+    margin-bottom: 10px;
+}
+
+.career ol li{
+    list-style: none;
+    margin: 15px;
+}
+
+.skills h2{
+    margin-bottom: 10px;
+}
+
+.skills ul li{
+    list-style: none;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.others h2{
+    margin-bottom: 10px;
+}
+
+.others ol li{
+    list-style: none;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.others h3{
+    font-size: 16pt;
+    color: #6a3da0;
+    margin-bottom: 8px;
+    margin-top: 9px;
+    padding-left: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.design h2{
+    margin-bottom: 10px;
+}
+
+.design ol li{
+    list-style: none;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.competence h2{
+    margin-bottom: 10px;
+}
+
+.competence ol li{
+    list-style: none;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.image img {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 100%;
+    border: 2px solid #8a4419;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.left{
+    float: left;
+    width: 33%;
+    border-right: 6px;
+    margin: 15px;
+    border-radius: 3px;
+    background: -moz-linear-gradient(left, #00c0b9 0%, #b2b2ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #00c0b9 0%,#b2b2ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #00c0b9 0%,#b2b2ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c0b9', endColorstr='#b2b2ff',GradientType=1 ); /* IE6-9 */
+    box-shadow: 10px 10px 3px #888888;
+    border: 5px groove yellow;
+    box-sizing: border-box;
+}
+
+.rightside{
+    float: right;
+    width: 55%;
+    margin: 15px;
+    border-radius: 3px;
+    background: -moz-linear-gradient(left, #00c0b9 0%, #b2b2ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #00c0b9 0%,#b2b2ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #00c0b9 0%,#b2b2ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c0b9', endColorstr='#b2b2ff',GradientType=1 ); /* IE6-9 */
+    box-shadow: 10px 10px 3px #888888;
+    padding: 20px;
+    border: 5px groove yellow;
+    box-sizing: border-box;
+}
+
+/* table */
+table{
+    width: 100%;
+}
+
+.biodata th, td{
+    height: 50%;
+    padding: 15px;
+    text-align: left;
+}
+
+.biodata tr:nth-child(even){
+    background-color: #0091b2;
+}
+
+.biodata table th, td{
+    border: none;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.biodata table{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.biodata h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 15px;
+    color: #ef155e;
+}
+
+.education_profile h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #ef155e;
+}
+
+.education_profile table th{
+    text-transform: uppercase;
+    border: 2px solid grey;
+}
+
+.education_profile tr:nth-child(even){
+    background-color: #0091b2;
+}
+
+.education_profile td{
+    border: 2px solid grey;
+}
+/* table end */
+
+.footer {
+    clear: both;
+    background-color: #f85eff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.footer img{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+.footer p{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13pt;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity:70)";
+}
+
+.facebook{
+    margin-top: -8px;
+    margin-right: 10px;
+    border: none;
+}
+
+.twitter{
+    margin-top: -8px;
+    margin-right: 12px;
+    border: none;
+}
+
+/* mobile & tablets design */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    body{
+    background: #e2c7f7;
+    border: none;
+    }
+    
+    #super_body{
+    background: #e2c7f7; /* Old browsers */
+    border: none;
+    min-width: 320px;
+    max-width: 480px;
+}
+    
+    .left{
+    float: none;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-left: 3.5px;
+}
+
+.rightside{
+    float: none;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-left: 3.5px;
+}
+    
+    .image img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+}
+
+ .biodata th, td{
+    height: 50%;
+    padding: 15px;
+    text-align: left;
+}
+
+.biodata tr:nth-child(even){
+    background-color: #0091b2;
+}
+
+.biodata table th, td{
+    border: none;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.biodata table{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.biodata h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 15px;
+    color: #ef155e;
+}
+    h1{
+    font-size: 18pt;
+    font-family: fantasy;
+    color: #0f5dde;
+    background-color: #e2c7f7;
+    border: none;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+h2{
+    font-size: 13pt;
+}
+
+.biodata th, td{
+    height: 50%;
+    padding: 5px;
+    text-align: left;
+    font-size: 11pt;
+}
+
+.biodata th, td{
+    text-align: center;
+}
+
+    .education_profile h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #ef155e;
+}
+
+.education_profile table th{
+    text-transform: capitalize;
+}
+
+.education_profile tr th{
+    padding-right: 3px;
+}
+    .footer p{
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: bold;
+    font-size: 10pt;
+    opacity: .7;
+    margin-left: -20px;
+}
+
+.facebook{
+    margin-top: -8px;
+    margin-right: 10px;
+    border: none;
+    margin-right: -30px;
+}
+
+.twitter{
+    margin-top: -8px;
+    margin-right: 20px;
+    border: none;
+    padding-left: 15px;
+    margin-right: 5px;
+}
+
+.footer {
+    margin: 3.5px;
+    background-color: #e2c7f7;
+    
+}
+
+.footer img{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+}
+
+/* more sizes */
+@media only screen and (min-width: 481px) and (max-width: 765px){
+ 
+
+
+h1{
+    font-family: cursive, sans-serif, serif;
+    font-size: 15.4pt;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #ef155e;
+    text-transform: uppercase;
+    font-family: cursive, monospace;
+    margin-top: 12px;
+}
+
+.career h2{
+    margin-bottom: 10px;
+}
+
+.career ol li{
+    list-style: none;
+    margin: 15px;
+}
+
+.skills h2{
+    margin-bottom: 10px;
+}
+
+.skills ul li{
+    list-style: none;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.others h2{
+    margin-bottom: 10px;
+}
+
+.others ol li{
+    list-style: none;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.others h3{
+    font-size: 16pt;
+    color: #6a3da0;
+    margin-bottom: 8px;
+    margin-top: 9px;
+    padding-left: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.design h2{
+    margin-bottom: 10px;
+}
+
+.design ol li{
+    list-style: none;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.competence h2{
+    margin-bottom: 10px;
+}
+
+.competence ol li{
+    list-style: none;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.image img {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 100%;
+    border: 2px solid #8a4419;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.left{
+    float: none;
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+.rightside{
+    float: none;
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: none;
+    margin-top: 19px;
+}
+
+.footer {
+    padding: 11px;
+    border-radius: 5px;
+    width: 94%;
+    margin-top: 10px;
+    margin-left: 9px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+}
+
+.footer img{
+    margin-top: -5px;
+    
+}
+
+.footer p{
+    text-transform: capitalize;
+    font-size: 12pt;
+    text-align: left;
+}
+
+
+}
+
+/* tablet version */
+@media only screen and (min-width: 766px) and (max-width: 1200px){
+    #super_body{
+    background: #e2c7f7; /* Old browsers */
+    border: none;
+    min-width: 766px;
+    max-width: 1200px;
+    height: 100%;
+}
+
+
+.left{
+    width: 40%;
+    margin: 10px;
+}
+    
+.rightside{
+    width: 54.2%;
+    margin: 10px;
+}
+
+/* table */
+
+.biodata th, td{
+    padding: 10px;
+}
+
+.biodata tr:nth-child(even){
+    background-color: #0091b2;
+}
+
+.biodata table th, td{
+    border: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 10pt;
+    
+}
+
+.biodata table{
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.biodata h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 15px;
+    color: #ef155e;
+}
+.education_profile h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #ef155e;
+}
+
+.education_profile table th{
+    text-transform: uppercase;
+    border: 2px solid grey;
+}
+
+.education_profile tr:nth-child(even){
+    background-color: #0091b2;
+}
+
+.education_profile td{
+    border: 2px solid grey;
+}
+}
+/* table end */
+
+/* end of mobile and tablet design */
