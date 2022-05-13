@@ -4,4 +4,5 @@
 </p>
 <p>
 In other to serve the page through github pages, i changed the structure of the file from cv.html to index.html
+You can view the site [here](https://kekecoder.github.io/first-web/)
 </p>
